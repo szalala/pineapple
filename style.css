@@ -1,0 +1,148 @@
+html,
+body {
+  max-width: 1200px;
+  margin: auto;
+  font-family: "Space Mono", sans-serif;
+  font-size: 18px;
+  line-height: 1.4em;
+
+}
+
+
+body {
+	background-image: 
+  linear-gradient(
+      rgba(0, 0, 0, 0.4),
+      rgba(0, 0, 0, 0.4)
+    ), url("img/palms.jpg");
+	background-size: cover;
+	width: 100%;
+	background-attachment: fixed;
+
+}
+
+.clearfix {
+  clear: both;
+}
+
+@media only screen and (max-width: 480px) {
+  .gallery-item .thumbnail {
+    width: 95%;
+  }
+  .page-description {
+    font-size: 30px;
+    line-height: 40px;
+  }
+
+  header {
+    margin: 0 25px;
+  }
+
+  .page-title h1 {
+  
+  font-size: 1rem;
+
+}
+}
+
+/*TEXT*/
+header {
+ text-align: center;
+ margin-top: 50px;
+ color: #f40082;
+}
+
+
+.page-title h1 {
+  display: inline-block;
+  font-size: 2.5rem;
+  mix-blend-mode: darken;
+  text-shadow: 1px 1px 0px #fff;
+  margin-bottom: 0;
+
+}
+
+h4 {
+  color: #fff;
+
+}
+
+.main {
+  text-align: center;
+}
+
+
+.main p {
+  color: #fff;
+}
+
+.page-description {
+  font-size: 0.9rem;
+  padding: 30px;
+
+}
+
+.learn-more {
+  color: #fff;
+  text-decoration: none;
+  display: block;
+  margin: 25px 0 0 0;
+  font-weight: bold;
+
+}
+
+/*GALLERY*/
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.gallery-item {
+  margin: 20px;
+}
+
+.gallery-item .thumbnail {
+  width: 240px;
+  border: 2px solid #f40082;
+  border-radius: 4px;
+}
+
+/*FOOTER*/
+
+nav {
+  margin-top: 30px;
+}
+
+nav ul {
+  display: block;
+}
+
+nav li {
+  display: inline;
+  margin: 0 20px 0 0;
+  color: #f40082;
+}
+
+nav a {
+  line-height: 60px;
+  border: 1px solid #ebe1dc;
+  padding: 7px;
+  border-radius: 4px;
+  color: #ffaf00;
+  text-decoration: none;
+}
+
+.contact-btn {
+  cursor: pointer;
+  margin: 20px 30px;
+  text-align: center;
+}
+
+.contact-btn a:active {
+  position: relative;
+  bottom: 2px;
+}
+
+
